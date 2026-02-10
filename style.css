@@ -435,6 +435,7 @@ html {
     }
     
     .section-title {
+        margin-top: 3rem;
         font-size: 2rem;
     }
     
@@ -721,4 +722,5 @@ html {
     .summary-grid {
         gap: 1.5rem;
     }
+
 } 
