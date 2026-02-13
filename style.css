@@ -50,6 +50,19 @@ body {
     align-items: center;
     gap: 1rem;
 }
+.btn-cse{
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: -2rem;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+}
 
 .logo {
     width: 40px;
@@ -253,7 +266,15 @@ html {
 .semester-section {
     padding: 4rem 2rem;
 }
-
+.btn-cse{
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 5rem ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
 .section-title {
     text-align: center;
     font-size: 2.5rem;
@@ -273,6 +294,7 @@ html {
     background: var(--primary-color);
     border-radius: 2px;
 }
+
 
 .semester-grid {
     display: grid;
@@ -467,7 +489,11 @@ html {
 .semester-details-section {
     padding: 6rem 2rem 4rem;
 }
-
+.aisemester-details-section {
+    padding: 6rem 2rem 4rem ;
+    position: relative;
+    top: -4rem;
+}
 .back-button {
     margin-bottom: 2rem;
 }
@@ -705,7 +731,9 @@ html {
     .semester-details-section {
         padding: 5rem 1rem 3rem;
     }
-
+.aisemester-details-section {
+        padding: 5rem 1rem 3rem;
+    }
     .semester-title h1 {
         font-size: 2.5rem;
     }
@@ -722,5 +750,4 @@ html {
     .summary-grid {
         gap: 1.5rem;
     }
-
 } 
