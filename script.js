@@ -9,7 +9,7 @@ const menuLinks = document.querySelectorAll('.menu-link');
 // Theme Toggle Functionality
 function toggleTheme() {
     const html = document.documentElement;
-    const isDark = html.getAttribute('data-theme') === 'dark';
+    const isDark = html.getAttribute('data-theme') === 'light';
     const themeIcon = themeToggle.querySelector('i');
     
     if (isDark) {
